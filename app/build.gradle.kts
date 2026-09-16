@@ -57,7 +57,7 @@ dependencies {
 
     // Pagos: Visa vía Stripe, y PayPal
     implementation("com.stripe:stripe-android:20.52.3")
-    implementation("com.paypal.checkout:android-sdk:1.5.0")
+    implementation("com.paypal.checkout:android-sdk:1.3.2")
 
     // Carga de logos de canal
     implementation("com.github.bumptech.glide:glide:4.16.0")
