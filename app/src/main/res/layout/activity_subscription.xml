@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#0F1420">
+
+    <TextView
+        android:id="@+id/subscriptionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/premium_locked_title"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/premium_locked_message"
+        android:textColor="#9198A1"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/stripeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagar con Visa" />
+
+    <com.paypal.checkout.paymentbuttons.PayPalButton
+        android:id="@+id/payPalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/subscriptionStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4ECB85"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

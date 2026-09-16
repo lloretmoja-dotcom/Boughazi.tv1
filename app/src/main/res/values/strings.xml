@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boughazi TV</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="hint_email">Correo (Gmail)</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_register">Crear cuenta</string>
+    <string name="btn_forgot_password">Olvidé mi contraseña</string>
+    <string name="error_login_generic">No se pudo iniciar sesión</string>
+    <string name="reset_email_sent">Te enviamos un enlace a tu correo para restablecer la contraseña</string>
+    <string name="premium_locked_title">Canal premium</string>
+    <string name="premium_locked_message">Suscríbete para desbloquear este canal</string>
+    <string name="btn_subscribe">Suscribirme</string>
+</resources>
